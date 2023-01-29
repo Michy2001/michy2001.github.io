@@ -38,3 +38,7 @@ body {
   font-size: 16px;
   color: #ffffff;
   margin: 2%;}
+a{
+  font-family: "VT323", monospace;
+  color: #ffffff;
+}
