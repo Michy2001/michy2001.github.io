@@ -1,0 +1,40 @@
+h1 {
+  font-family: "VT323", monospace;
+  color: #bbeef7;
+  font-size: 60px;
+  border: 2px #ffffff;
+  margin: 0px 0px 10px 0px;
+  animation-name: textColorChange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes textColorChange {
+  0% {
+    color: #bea1f5;
+  }
+  20% {
+    color: #fff2cc;
+  }
+  40% {
+    color: #ffc890;
+  }
+  60% {
+    color: #8fce00;
+  }
+  80% {
+    color: #f4cccc;
+  }
+  100% {
+    color: #35a8ff;
+  }
+}
+
+body {
+  font-family: "VT323", monospace;
+  margin: 40px;
+  padding: 30px;
+  background-color: #000000;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 2%;}
