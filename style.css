@@ -4,3 +4,18 @@ body {
     padding: 30px;
     background-color: tan;
 }
+h1{
+    font-size: 80px;
+    font-family: "Righteous", cursive;
+    color:darkslategrey;
+}
+h2{
+    font-size: 40px;
+    font-family: "Righteous", cursive;
+    color:rgb(255, 255, 255);
+}
+h3{
+    font-size: 40px;
+    font-family: "Righteous", cursive;
+    color:rgb(98, 133, 133);
+}
