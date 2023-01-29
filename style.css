@@ -15,7 +15,11 @@ h2{
     color:rgb(255, 255, 255);
 }
 h3{
-    font-size: 40px;
+    font-size: 20px;
     font-family: "Righteous", cursive;
     color:rgb(98, 133, 133);
+}
+a{
+    font-family: "Righteous", cursive;
+    color: rgb(255, 255, 255);
 }
