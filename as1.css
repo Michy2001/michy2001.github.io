@@ -42,6 +42,10 @@ a{
   font-family: "VT323", monospace;
   color: #ffffff;
   cursor: url("robot\ arm\ blue.png"), url("robot\ arm\ blue.png"), default;}
+
+.href{
+    cursor: url("robot\ arm\ blue.png"), url("robot\ arm\ blue.png"), default;}
+
 body{
   cursor: url("robot\ arm\ blue.png"), url("robot\ arm\ blue.png"), default;}
 head{

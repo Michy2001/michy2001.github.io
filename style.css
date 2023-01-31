@@ -88,6 +88,8 @@ h1{
       color: rgb(255, 255, 255);
       cursor: url("robot\ arm\ blue.png"), url("robot\ arm\ blue.png"), default;}
 
+.href{
+  cursor: url("robot\ arm\ blue.png"), url("robot\ arm\ blue.png"), default;}
 
 .leftarrow {
   float: inline-start;
