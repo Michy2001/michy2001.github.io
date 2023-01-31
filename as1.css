@@ -42,3 +42,7 @@ a{
   font-family: "VT323", monospace;
   color: #ffffff;
 }
+body{
+  cursor: url("robot\ arm\ blue.png"), url("robot\ arm\ blue.png"), default;}
+head{
+    cursor: url("robot\ arm\ blue.png"), url("robot\ arm\ blue.png"), default;}
