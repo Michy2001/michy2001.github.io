@@ -86,7 +86,8 @@ h1{
   a{
       font-family: "Righteous", cursive;
       color: rgb(255, 255, 255);
-  }
+      cursor: url("robot\ arm\ blue.png"), url("robot\ arm\ blue.png"), default;}
+
 
 .leftarrow {
   float: inline-start;
