@@ -1,0 +1,37 @@
+h1 {
+    font-family: "VT323", monospace;
+    color: #ffffff;
+    font-size: 80px;
+    border: 2px #000000;
+    margin: 0px 0px 10px 0px;
+    animation-name: textColorChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes textColorChange {
+    0% {
+      color: #ffffff;
+    }
+    20% {
+      color: #000000;
+    }
+    40% {
+      color: #ffffff;
+    }
+    60% {
+      color: #000000;
+    }
+    80% {
+      color: #ffffff;
+    }
+    100% {
+      color: #000000;
+    }
+  }
+  body{
+    font-family: "VT323", monospace;
+    margin: 40px;
+    padding: 30px;
+    background-color: #000000;
+  }
