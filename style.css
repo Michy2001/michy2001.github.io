@@ -97,3 +97,6 @@ h1{
 .rightarrow {
   float:inline-end
 }
+marquee:hover {
+  filter: hue-rotate(90deg);
+}
