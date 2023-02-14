@@ -10,6 +10,12 @@ p{
     color: #ee7a99;
 }
 
+h1{
+    font-size: 70px;
+    font-family: 'Luckiest Guy', cursive;
+    color: #ee7a99;
+}
+
 body{
     background-color: #f8d2d272;
     margin: 50px;
