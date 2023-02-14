@@ -1,0 +1,19 @@
+h1 {
+    font-size: 80px;
+    font-family: 'Luckiest Guy', cursive;
+    color: #FE2E64;
+}
+body{
+    background-color: #F5A9A9;
+    margin: 50px;
+    padding: 40px;
+}
+h2{
+    font-size: 35px;
+    font-family: 'Bangers', cursive;
+}
+
+a{
+    font-family: 'Bangers', cursive;
+    color: white;
+}
