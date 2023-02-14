@@ -1,0 +1,17 @@
+h2{
+    font-size: 50px;
+    font-family: 'Luckiest Guy', cursive;
+    color: #ee7a99;
+}
+
+p{
+    font-size: 40px;
+    font-family: 'Luckiest Guy', cursive;
+    color: #ee7a99;
+}
+
+body{
+    background-color: #f8d2d2;
+    margin: 50px;
+    padding: 40px;
+}
