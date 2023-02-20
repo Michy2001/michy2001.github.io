@@ -1,28 +1,95 @@
 body {
     margin: 40px;
     padding: 30px;
-    background-color: #F1F8E0;
+    background-color: #000000;
     color: #ffffff;
     margin: 2%;}
   
   h1 {
     font-family: 'Ruda', sans-serif;
     font-size: 50px;
-    color: #adad85;
+    color: #5d5d5d;
+    animation-name: textColorChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
   }
+
+.centered {
+  max-width: 55ch;
+  margin: 0 auto;
+}
+
+@keyframes textColorChange {
+    0% {
+      color:#fff;
+      -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    }
+    33% {
+      color:#fdec6e;
+      text-shadow:0px 0px 30px #fdec6e;
+      -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    }
+    66%{
+      color:#fff;
+      -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    }
+    77%{
+      color:#fdec6e;
+      text-shadow:0px 0px 30px #fdec6e;
+      -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    }
+  }
+  h1 {
+    color:#fff;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+
   h2 {
     font-family: 'Abhaya Libre', serif;
     font-size: 18px;
-    color: #5c5c3d;
+    color: #5d5d5d;
   }
+
+h2:hover{
+  color: #fff6b0;
+  text-shadow:0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+h2 {
+    color:#fff;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    max-width: 70ch;
+    position: center;
+}
 
   .glowing-circle {
     width: 70px;
     height: 70px;
     border-radius:50%;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
+    position: bottom;
+    position: right;
     font-size: 18px;
     background-color: #fff;
     -webkit-animation: glowing 1s ease-in-out infinite alternate;
@@ -32,9 +99,10 @@ body {
 
   @-webkit-keyframes glowing {
     from {
-      box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(0, 229, 255), 0 0 40px #0ff, 0 0 50px #3a4be7, 0 0 60px #0026e6, 0 0 70px #2600e695;
+      box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(252, 255, 167), 0 0 40px rgb(243, 237, 123), 0 0 50px #ffff1c, 0 0 60px #fffff7, 0 0 70px #2600e695;
     }
     to {
-      box-shadow: 0 0 20px #fff, 0 0 30px #929aef, 0 0 40px #75b2f7, 0 0 50px #4d7aff, 0 0 60px #2849ec, 0 0 70px #1414eb, 0 0 80px #2102a878;
+      box-shadow: 0 0 20px #fff, 0 0 30px #e3ec7d, 0 0 40px #f8ff30, 0 0 50px #f4ff1c, 0 0 60px #dfef4c, 0 0 70px #fbff0b, 0 0 80px #fffddd;
     }
   }
+

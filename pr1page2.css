@@ -7,13 +7,13 @@ body {
   
   h2 {
     font-family: 'Ruda', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #5c5c3d;
   }
   
   .glowing-circle {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     border-radius:50%;
     position: absolute;
     bottom: 20px;
@@ -27,10 +27,10 @@ body {
 
   @-webkit-keyframes glowing {
     from {
-      box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(0, 229, 255), 0 0 40px #0ff, 0 0 50px #3a4be7, 0 0 60px #0026e6, 0 0 70px #2600e695;
+      box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(252, 255, 167), 0 0 40px rgb(243, 237, 123), 0 0 50px #ffff1c, 0 0 60px #fffff7, 0 0 70px #2600e695;
     }
     to {
-      box-shadow: 0 0 20px #fff, 0 0 30px #929aef, 0 0 40px #75b2f7, 0 0 50px #4d7aff, 0 0 60px #2849ec, 0 0 70px #1414eb, 0 0 80px #2102a878;
+      box-shadow: 0 0 20px #fff, 0 0 30px #e3ec7d, 0 0 40px #f8ff30, 0 0 50px #f4ff1c, 0 0 60px #dfef4c, 0 0 70px #fbff0b, 0 0 80px #fffddd;
     }
   }
 
