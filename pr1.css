@@ -15,7 +15,7 @@ body {
   }
 
 .centered {
-  max-width: 55ch;
+  max-width: 65ch;
   margin: 0 auto;
 }
 
@@ -105,4 +105,17 @@ h2 {
       box-shadow: 0 0 20px #fff, 0 0 30px #e3ec7d, 0 0 40px #f8ff30, 0 0 50px #f4ff1c, 0 0 60px #dfef4c, 0 0 70px #fbff0b, 0 0 80px #fffddd;
     }
   }
-
+  
+  @media only screen and (max-width: 600px)
+  
+  
+  @media only screen and (min-width: 600px)
+  
+ 
+  @media only screen and (min-width: 768px)
+  
+ 
+  @media only screen and (min-width: 992px)
+  
+  
+  @media only screen and (min-width: 1200px)
