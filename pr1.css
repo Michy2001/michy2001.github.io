@@ -1,22 +1,79 @@
-body {
-    margin: 40px;
-    padding: 30px;
-    background-color: #000000;
-    color: #ffffff;
-    margin: 2%;}
-  
-  h1 {
-    font-family: 'Ruda', sans-serif;
-    font-size: 50px;
-    color: #5d5d5d;
-    animation-name: textColorChange;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
+
+@media only screen and (max-width: 500px){
+  body {
+      margin: 40px;
+      padding: 30px;
+      background-color: #000000;
+      color: #ffffff;
+      margin: 2%;}
+      h2 {
+          font-family: 'Ruda', sans-serif;
+          font-size: 20px;
+          color: #5c5c3d;
+        }
+        h1 {
+          font-family: 'Ruda', sans-serif;
+          font-size: 50px;
+          color: #5d5d5d;
+          animation-name: textColorChange;
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+        }
 
 .centered {
   max-width: 65ch;
   margin: 0 auto;
+}
+}
+
+.glowing-circle {
+  width: 70px;
+  height: 70px;
+  border-radius:50%;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 18px;
+  background-color: #fff;
+  -webkit-animation: glowing 1s ease-in-out infinite alternate;
+  -moz-animation: glowing 1s ease-in-out infinite alternate;
+  animation: glowing 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowing {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(252, 255, 167), 0 0 40px rgb(243, 237, 123), 0 0 50px #ffff1c, 0 0 60px #fffff7, 0 0 70px #2600e695;
+  }
+  to {
+    box-shadow: 0 0 20px #fff, 0 0 30px #e3ec7d, 0 0 40px #f8ff30, 0 0 50px #f4ff1c, 0 0 60px #dfef4c, 0 0 70px #fbff0b, 0 0 80px #fffddd;
+  }
+}
+
+@media only screen and (min-width: 1200px)
+{
+  body {
+      margin: 40px;
+      padding: 30px;
+      background-color: #000000;
+      color: #ffffff;
+      margin: 2%;}
+      h2 {
+          font-family: 'Ruda', sans-serif;
+          font-size: 16px;
+          color: #5c5c3d;
+        }
+        h1 {
+          font-family: 'Ruda', sans-serif;
+          font-size: 50px;
+          color: #5d5d5d;
+          animation-name: textColorChange;
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+        }
+   .centered {
+  max-width: 65ch;
+  margin: 0 auto;
+}
 }
 
 @keyframes textColorChange {
@@ -84,38 +141,25 @@ h2 {
     position: center;
 }
 
-  .glowing-circle {
-    width: 70px;
-    height: 70px;
-    border-radius:50%;
-    position: bottom;
-    position: right;
-    font-size: 18px;
-    background-color: #fff;
-    -webkit-animation: glowing 1s ease-in-out infinite alternate;
-    -moz-animation: glowing 1s ease-in-out infinite alternate;
-    animation: glowing 1s ease-in-out infinite alternate;
-  }
+.glowing-circle {
+  width: 70px;
+  height: 70px;
+  border-radius:50%;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 18px;
+  background-color: #fff;
+  -webkit-animation: glowing 1s ease-in-out infinite alternate;
+  -moz-animation: glowing 1s ease-in-out infinite alternate;
+  animation: glowing 1s ease-in-out infinite alternate;
+}
 
-  @-webkit-keyframes glowing {
-    from {
-      box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(252, 255, 167), 0 0 40px rgb(243, 237, 123), 0 0 50px #ffff1c, 0 0 60px #fffff7, 0 0 70px #2600e695;
-    }
-    to {
-      box-shadow: 0 0 20px #fff, 0 0 30px #e3ec7d, 0 0 40px #f8ff30, 0 0 50px #f4ff1c, 0 0 60px #dfef4c, 0 0 70px #fbff0b, 0 0 80px #fffddd;
-    }
+@-webkit-keyframes glowing {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(252, 255, 167), 0 0 40px rgb(243, 237, 123), 0 0 50px #ffff1c, 0 0 60px #fffff7, 0 0 70px #2600e695;
   }
-  
-  @media only screen and (max-width: 600px)
-  
-  
-  @media only screen and (min-width: 600px)
-  
- 
-  @media only screen and (min-width: 768px)
-  
- 
-  @media only screen and (min-width: 992px)
-  
-  
-  @media only screen and (min-width: 1200px)
+  to {
+    box-shadow: 0 0 20px #fff, 0 0 30px #e3ec7d, 0 0 40px #f8ff30, 0 0 50px #f4ff1c, 0 0 60px #dfef4c, 0 0 70px #fbff0b, 0 0 80px #fffddd;
+  }
+}

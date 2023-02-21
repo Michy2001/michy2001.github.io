@@ -1,0 +1,48 @@
+
+@media only screen and (max-width: 500px){
+    body {
+        margin: 40px;
+        padding: 30px;
+        background-color: #aaaaaa;
+        color: #a7a7a7cc;
+        margin: 2%;}
+        h2 {
+            font-family: 'Ruda', sans-serif;
+            font-size: 20px;
+            color: #808080;
+          }
+
+  .centered {
+    max-width: 65ch;
+    margin: 0 auto;
+  }
+}
+.shadows {
+    position: relative;
+    text-shadow: -2px 1px 2px #3c3c3c;
+    color: rgb(143, 143, 143);   
+}
+.shadows:hover {
+    text-shadow: -3px 2px 3px rgba(45, 45, 45, 0.361);
+}
+
+  @media only screen and (min-width: 1200px)
+  {
+    body {
+        margin: 40px;
+        padding: 30px;
+        background-color: #aaaaaa;
+        color: #a7a7a7cc;
+        margin: 2%;}
+        h2 {
+            font-family: 'Ruda', sans-serif;
+            font-size: 16px;
+            color: #808080;
+          }
+     .centered {
+    max-width: 65ch;
+    margin: 0 auto;
+  }
+  }
+
+  
