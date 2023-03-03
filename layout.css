@@ -14,7 +14,7 @@ body{
     padding: 20px;
   }
   
-  .jaroo {
+  .jaroo{
       width: 340px;
       height: 340px;
       background-color: #FDEA02;
@@ -24,7 +24,7 @@ body{
       margin: 60;
   }
   
-  .jarocircle{
+  .jarocirclee{
     width: 130px;
     height:130px;
     border-radius:130px;
