@@ -30,6 +30,6 @@ body {
 
 @keyframes bgcolor{
     0% {background-color: white;}
-    50% {background-color: black;}
+    55% {background-color: black;}
     100% {background-color: white;}
 }
