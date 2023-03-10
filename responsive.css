@@ -1,0 +1,130 @@
+body{
+    margin:30;
+    height:100%;
+    background-color: white;
+  }
+
+:root{
+    background-color: white;
+    margin: 0 auto;
+    position: absolute;
+}
+  .container{
+    margin: 0 auto;
+  }
+
+.jaro {
+    width: 30vh;
+    height: 30vh;
+    background-color: #FDEA02;
+    position: relative;
+    display:inline-block;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    vertical-align: baseline;
+}
+
+.jarocircle{
+  width: 10vh;
+  height:10vh;
+  border-radius:10vh;
+  background-color: #FD0D02;
+  margin-top: -25vh;
+  margin-left: 14vh;
+  position: relative;
+}
+
+.jarotri{
+  width: 0;
+  height:0;
+  border-left: 5vh solid transparent;
+  border-right: 5vh solid transparent;
+  border-bottom: 14vh solid #02E6FD;
+  display:inline-block;
+  position: relative;
+  margin-top: -2vh;
+  margin-left: 14vh;
+}
+.redskew{
+  width: 0.7vh;
+  height: 7.2vh;
+  background-color: red;
+  transform: skew(20deg);  
+  position: relative;
+  top: -8vh;
+  left: -1vh;
+  display:inline-block;
+  opacity: 90%;
+}
+
+.jaroblue{
+  width: 5vh;
+  height: 19vh;
+  position: relative;
+  background-color: #95FFFC;
+  top: -3vh;
+  margin-left: 30vh;
+  display:inline-block;
+  opacity: 80%;
+}
+.jarotritwo{
+  width: 0;
+  height:0;
+  border-left: 11vh solid transparent;
+  border-right: 0vh solid transparent;
+  border-bottom: 9vh solid #FD0D02;
+  display:inline-block;
+  position: relative;
+  top: -1vh;
+  left: 2vh;
+}
+@media screen and (min-width:100px){
+  .container{
+    position:absolute;
+  }
+  .jarotritwo{
+    left: 24vh;
+    top: -9vh;
+  }
+  .jaroblue{
+  top: -31vh;
+  }
+  .redskew{
+    left:26vh;
+    top:-15vh;
+  }
+}
+
+@media screen and (min-width:600px){
+  .container{
+    filter: hue-rotate(280deg);
+    position: absolute;
+  }
+  .jarocircle{
+    margin-top: -25vh;
+    margin-left: 14vh;
+  }
+  .jarotritwo{
+    left:24vh;
+    top:-9vh;
+  }
+  .jaroblue{
+    left:0vh;
+    top:-31vh;
+  }
+  .redskew{
+   left:26vh;
+   top: -15vh;
+  }
+  .elements{
+    margin-top:-20vh;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .container{
+    filter:hue-rotate(90deg);
+    position: absolute;
+  }
+  
+}
