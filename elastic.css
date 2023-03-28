@@ -3,3 +3,6 @@ body{
     font-family: 'Comfortaa', cursive;
     font-size: 27px;
 }
+.gallery-img{
+ max-width: 30vw;
+}
