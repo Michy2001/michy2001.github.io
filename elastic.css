@@ -178,3 +178,8 @@ img{
     margin-top: 117vw;
     position: absolute;
 }
+
+body{
+    cursor: url("elasticcurdor.png"), url("elasticcurdor.png"), default;
+}
+head{cursor: url("elasticcurdor.png"), url("elasticcurdor.png"), default;}
