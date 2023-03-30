@@ -1,8 +1,180 @@
 body{
-    background-color:antiquewhite;
-    font-family: 'Comfortaa', cursive;
-    font-size: 27px;
+    background-image: url(backgroundk.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    font-family: 'Handlee', cursive;
 }
-.gallery-img{
- max-width: 30vw;
+
+h1{
+    font-family: 'Handlee', cursive;
+    margin-top: 7vw;
+    margin-left: 37vw;
+    font-size: 60px;
+    color: black;
+}
+
+img{
+    height: 150px;
+}
+.oldest{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    color: black;
+    margin-left: 5vw;
+    margin-top: 20vw;
+    position: absolute;
+}
+.old{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    color: black;
+    margin-left: 37vw;
+    margin-top: 8vw;
+    position: absolute;
+}
+.mid{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    color: black;
+    transform: rotate(17deg);
+    margin-left: 71vw;
+    margin-top: 17vw;
+    position: absolute;
+}
+.new{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    color: black;
+    margin-top:60vw;
+    margin-left: 5vw;
+    position: absolute;
+}
+.newest{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    color: black;
+    margin-top:128vw;
+    margin-left: 86vw;
+    position: absolute;
+}
+.gallery{
+    margin-left: 27vw;
+    margin-top: 15.5vw;
+    position: absolute;
+}
+.james{
+    margin-left: 36vw;
+    margin-top: 15.5vw;
+    position: absolute;
+}
+.dedrick{
+    margin-left: 31vw;
+    margin-top: 105vw;
+    position: absolute;
+}
+.hannah{
+    position: absolute;
+    margin-left: 5.5vw;
+    margin-top: 24vw;
+}
+.jesse{
+    margin-left: 50vw;
+    margin-top: 15.5vw;
+    position: absolute;
+}
+.carrol{
+    margin-left: 72vw;
+    margin-top: 27vw;
+    position: absolute;
+    transform:rotate(15deg);
+}
+.pedro{
+    margin-left: 63vw;
+    margin-top: 40vw;
+    position: absolute;
+    transform:rotate(15deg);
+}
+.eric{
+    margin-left: 75vw;
+    margin-top: 43.25vw;
+    position: absolute;
+    transform:rotate(15deg);
+}
+.otaya{
+    margin-left: 47vw;
+    margin-top: 36.25vw;
+    position: absolute;
+    transform:rotate(15deg);
+}
+.peter{
+    margin-left: 35vw;
+    margin-top: 33vw;
+    position: absolute;
+    transform:rotate(15deg);
+}
+.robert{
+    position:absolute;
+    margin-top: 66vw;
+    margin-left: 17vw;
+}
+.jon{
+    position:absolute;
+    margin-top: 66vw;
+    margin-left: 39vw;
+}
+.tate{
+    position:absolute;
+    margin-top: 66vw;
+    margin-left: 59vw;
+}
+.craig{
+    position: absolute;
+    margin-top: 78vw;
+    margin-left: 19.5vw;
+}
+.sajal{
+    position: absolute;
+    margin-top: 78vw;
+    margin-left: 40.5vw;
+}
+.terry{
+    position: absolute;
+    margin-top: 78vw;
+    margin-left: 59.5vw;
+}
+.hall{
+    position: absolute;
+    margin-top: 105vw;
+    margin-left: 45vw;
+}
+.natsumi{
+    position: absolute;
+    margin-top: 105vw;
+    margin-left: 66vw;
+}
+.pitt{
+    position: absolute;
+    margin-top: 105vw;
+    margin-left: 82vw;
+}
+.jasmine{
+    margin-left: 30vw;
+    margin-top: 117vw;
+    position: absolute;
+}
+.brazil{
+    margin-left: 53vw;
+    margin-top: 117vw;
+    position: absolute;
+}
+.brandon{
+    margin-left: 66.5vw;
+    margin-top: 117vw;
+    position: absolute;
+}
+.yukio{
+    margin-left: 82.5vw;
+    margin-top: 117vw;
+    position: absolute;
 }
