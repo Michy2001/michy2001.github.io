@@ -1,0 +1,17 @@
+body{
+    background-image: url(rettacopy.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    position: absolute;
+}
+h2{
+    font-family: 'Handlee', cursive;
+    font-size: 23px;
+    transform:rotate(-15deg);
+    margin-top: 17vw;
+    margin-left: 53vw;
+    color: black;
+}
+a{
+    color: red;
+}
