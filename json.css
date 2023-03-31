@@ -1,0 +1,46 @@
+.one{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 100fr));
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 10vw;
+}
+
+img{
+    height: 110px;
+}
+
+body{
+    background-image: url(jsonbackcopy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    font-family: 'Handlee', cursive;
+}
+
+h2{
+    font-family: 'Handlee', cursive;
+    color: rgb(7, 0, 109);
+    font-size: 30px;
+    margin-left: 22vw;
+    margin-top: 3.5vw;
+    position: absolute;
+}
+
+.two{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 100fr));
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: 10vw;
+}
+.three{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 100fr));
+    position: absolute;
+    margin-left: 65vw;
+    margin-top: 10vw;
+}
