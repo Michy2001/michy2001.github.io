@@ -1,0 +1,9 @@
+  <svg width="47vw" height="47vw" xmlns="http://www.w3.org/2000/svg">
+      <rect x="5vw" y="5vw" width="47vw" height="47vw" fill="yellow" />
+      <circle cx="17vw" cy="17vw" r= "8vw" fill="red"/>
+      <polygon points="120,120 65,305 185,305" fill="#4DEDF7"/>
+      <polygon points="200,305 310,305 310,220" fill= "red"/>
+      <rect x="34vw" y="10vw" width="6vw" height="28.5vw" fill="#A2F1F6"/>
+      <polygon points= "60,250 60,230 310,100 310,120" fill= "black"/>
+      <polygon points= "200,120 205,120 225,210 220,210" fill="red"/>
+  </svg>
