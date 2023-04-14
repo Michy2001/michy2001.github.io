@@ -1,0 +1,100 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/9f/3f/ef/9f3fefe825700bd6eaf0e307b016c381.jpg);
+    background-image: margin 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline;
+  }
+  h2{
+    font-family: 'Silkscreen', cursive;
+    font-size: 5vw;
+    max-width: 20ch;
+    color: #FFFF00;
+    margin-left: 11vw;
+    text-align: center;
+  }
+  .games{
+    border: 2px solid #FFFF00;
+    background: black;
+  }
+  
+  main{
+    display: block;
+    grid-area: main;
+    grid-template-columns: repeat 1fr;
+    grid-template-rows: 80px min-content 1fr min-content;
+    width: 70%;
+  }
+  aside{
+    background: black;
+    grid-area: aside;
+    font-family: 'Silkscreen', cursive;
+    font-size: 2vw;
+    display: block;
+    width: 29%;
+    float: right;
+    top: 21.5vw;
+    border: 2px solid #FF3E00;
+    color: #FF3E00;
+    position: absolute;
+    right: 0;
+  }
+  aside:hover{
+    filter: hue-rotate(90deg);
+  }
+  footer{
+    grid-area: footer;
+    background: black;
+    font-family: 'Silkscreen', cursive;
+    font-size: 2vw;
+    float: bottom;
+    width: 60%;
+    border: 2px solid #DA77FF;
+    color: #DA77FF;
+    position: relative;
+    bottom: 0;
+   float: right;
+  }
+  footer:hover{
+    filter: hue-rotate(90deg);
+  }
+  .foot{
+    color: #DA77FF;
+  }
+  .gallery{
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(10vw, 1fr));
+  }
+  
+  .gallery-img{
+    width: 10vw;
+    height: 10vw;
+  }
+  .gallery-img:hover{
+    filter: hue-rotate(180deg);
+  }
+  
+  a{
+    color: white;
+  }
+  
+  @media (max-width:700px){
+    .gallery{grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));}
+    .gallery-img{
+    width: 20vw;
+    height: 20vw;
+  }
+  }
+  @media (min-width:1000px){
+    .gallery{grid-template-columns: repeat(auto-fit, minmax(6.5vw, 1fr));}
+    .gallery-img{
+    width:6.5vw;
+    height: 6.5vw;
+  }
+    footer{
+      float: left;
+      bottom: 0;
+      margin-top: 6vw;
+    }
+  }
