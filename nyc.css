@@ -1,0 +1,88 @@
+h1 {
+    font-size: 5vw;
+    color: #a51;
+    font-family: 'Frijole', cursive;
+    margin: 0 auto;
+}
+
+form{
+    margin-top: -5vw;
+}
+
+body{
+    background-image: urL(parkday.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    padding: var( --spacing);
+    display: grid;
+    gap: calc(var(--spacing) * 2);
+}
+
+@media (min-width: 600px) {
+    body { 
+        --spacing: 32px;
+    }
+}
+
+label { opacity: 77%; }
+
+select, ul {
+    background-color: #eee;
+    opacity: 60%;
+    border-radius: calc(var(--spacing) / 4);
+}
+
+select {
+    margin-left: calc(var(--spacing) / 4);
+    padding: calc(var(--spacing) / 4);
+    text-align: center;
+    width: fit-content;
+}
+
+#chart {
+    --total: calc(var(--gray) + var(--cinnamon) + var(--black) + var(--undefined));
+    margin-top: -7vw;
+    display: flex;
+    /* height: calc(var(--spacing) * 3); */
+    overflow: hidden;
+}
+
+
+#chart li { 
+    transition: width 1s ease-in-out;
+    position:relative;
+    display:table-cell;
+    vertical-align:bottom;
+    height:400px;
+}
+
+/* Calculate from the JS variable. */
+#chart .gray { width: calc(var(--gray) / var(--total) * 100%); }
+#chart .cinnamon { width: calc(var(--cinnamon) / var(--total) * 100%); }
+#chart .black { width: calc(var(--black) / var(--total) * 100%); }
+#chart .undefined { width: calc(var(--undefined) / var(--total) * 100%); }
+
+.gray { background-color: gray; opacity: 100%; } 
+.cinnamon { background-color: #a51;opacity: 100%; }
+.black { background-color: #444; opacity: 100%;}
+.undefined{background-color: rgb(212, 170, 170);opacity: 100%;
+}
+
+.chart {
+    display:table;
+    table-layout: fixed;  
+    width:40%;
+    max-width:700px;
+    height:400px;
+    margin:0 auto; 
+  }
+
+  section {
+    width: max-content;
+    padding: 1.5rem 1.5rem 2rem;
+    border: 2px solid #636a78;
+    border-radius: 0.5rem;
+    margin: auto;
+  }
