@@ -9,19 +9,13 @@
 	</head>
 	<body>
 		<h1>Squirrel Census</h1>
-		<form>
-			<label for="shift">Select shift</label>
-			<select id="shift" name="shift">
-				<option>All day</option>
-				<option>Morning</option>
-				<option>Afternoon</option>
-			</select>
-		</form>
-		<ul id="graph">
-			<li class="gray"></li>
-			<li class="cinnamon"></li>
-			<li class="black"></li>
-			<li class="undefined"></li>
-		</ul>
+        <div class="toggle-container">
+            <button class="theme-btn light" onclick="setTheme('light')" title="Light mode">
+              <img src="https://assets.codepen.io/210284/sun.png" alt="sun">
+            </button>
+            <button class="theme-btn dark" onclick="setTheme('dark')" title="Dark mode">
+              <img src="https://assets.codepen.io/210284/moon.png" alt="moon">
+            </button>
+          </div>
 	</body>
 </html>
