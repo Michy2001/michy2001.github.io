@@ -24,13 +24,12 @@ body{
     body { 
         --spacing: 32px;
     }
-}
 
-label { opacity: 77%; }
+/* }
+label { opacity: 50%; }
 
 select, ul {
     background-color: #eee;
-    opacity: 60%;
     border-radius: calc(var(--spacing) / 4);
 }
 
@@ -41,48 +40,84 @@ select {
     width: fit-content;
 }
 
-#chart {
-    --total: calc(var(--gray) + var(--cinnamon) + var(--black) + var(--undefined));
-    margin-top: -7vw;
+#graph {
+    /* Add up the individual counts, from the JS. */
+    /* --total: calc(var(--gray) + var(--cinnamon) + var(--black) + var(--undefined));
+
     display: flex;
-    /* height: calc(var(--spacing) * 3); */
+    height: calc(var(--spacing) * 3);
     overflow: hidden;
 }
 
-
-#chart li { 
+/* Ease the widths, when we change via dropdown. */
+/* #graph li { 
     transition: width 1s ease-in-out;
-    position:relative;
-    display:table-cell;
-    vertical-align:bottom;
-    height:400px;
+    border-right: 3px solid #eee;
 }
 
 /* Calculate from the JS variable. */
-#chart .gray { width: calc(var(--gray) / var(--total) * 100%); }
-#chart .cinnamon { width: calc(var(--cinnamon) / var(--total) * 100%); }
-#chart .black { width: calc(var(--black) / var(--total) * 100%); }
-#chart .undefined { width: calc(var(--undefined) / var(--total) * 100%); }
+/* #graph .gray { width: calc(var(--gray) / var(--total) * 100%); }
+#graph .cinnamon { width: calc(var(--cinnamon) / var(--total) * 100%); }
+#graph .black { width: calc(var(--black) / var(--total) * 100%); }
 
-.gray { background-color: gray; opacity: 100%; } 
-.cinnamon { background-color: #a51;opacity: 100%; }
-.black { background-color: #444; opacity: 100%;}
-.undefined{background-color: rgb(212, 170, 170);opacity: 100%;
+.gray { background-color: gray; }
+.cinnamon { background-color: #a51; }
+.black { background-color: #444; } */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root,
+:root.light {
+    opacity: 0%
 }
 
-.chart {
-    display:table;
-    table-layout: fixed;  
-    width:40%;
-    max-width:700px;
-    height:400px;
-    margin:0 auto; 
-  }
+/* possibly the problem */
+:root.dark {
+    background-color: #121212;
+    opacity: 50%;
+}
 
-  section {
-    width: max-content;
-    padding: 1.5rem 1.5rem 2rem;
-    border: 2px solid #636a78;
-    border-radius: 0.5rem;
-    margin: auto;
+body {
+  margin: 0;
+}
+
+.toggle-container {
+  position: relative;
+}
+
+.theme-btn {
+  width: 6em;
+  height: 6em;
+  padding: 0.5em;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.theme-btn img {
+  height: 100%;
+  width: 100%;
+  margin-top: -15vw;
+  margin-left: 2vw;
+  object-fit: cover;
+}
+
+img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
   }
+  
+.theme-btn.light {
+  display: none;
+}
+
+.dark .theme-btn.dark {
+  display: none;
+}
+
+.dark .theme-btn.light {
+  display: block;
+}
