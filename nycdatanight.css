@@ -27,7 +27,7 @@
 }
 
 body {
-    background-image: urL("https://cdn.glitch.global/8400e7c6-e21b-4d3c-936f-84af0bd87ca1/parknight.jpg?v=1683209685525");
+    background-image: urL("parknight.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
