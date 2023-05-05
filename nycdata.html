@@ -1,65 +1,67 @@
 <html>
-	<head>
-		<title>Squirrel Census</title>
-		<meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="nycdata.css" rel="stylesheet">
-		<script defer src="nycdata.js"></script>
-	</head>
-	<body>
-		<h1>Squirrel Census</h1>
-        <a href="nycdatanight.html"><div class="day"></div></a>
-        <main class="app">
-            <div class="app-display">
-              <div class="metric-group">
-                <div class="metric">
-                  <div class="circle-chart" style="--selected-color:var(--gray)">
-                    <svg viewbox="0 0 36 36">
-                      <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
-                      <path class="circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke-dasharray="81, 100"></path>
-                    </svg>
-                    <div class="percentage" contenteditable data-tap-disabled="true" overflow-scroll="true">81</div>
-                  </div>
-                  <div class="label">Gray</div>
-                </div>
-                <div class="metric">
-                  <div class="circle-chart" style="--selected-color:var(--cinnamon)">
-                    <svg viewbox="0 0 36 36">
-                      <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
-                      <path class="circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke-dasharray="13, 100"></path>
-                    </svg>
-                    <div class="percentage" contenteditable data-tap-disabled="true" overflow-scroll="true">13</div>
-                  </div>
-                  <div class="label">Cinnamon</div>
-                </div>
-                <div class="metric">
-                  <div class="circle-chart" style="--selected-color:var(--black)">
-                    <svg viewbox="0 0 36 36">
-                      <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
-                      <path class="circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke-dasharray="4, 100"></path>
-                    </svg>
-                    <div class="percentage" contenteditable data-tap-disabled="true" overflow-scroll="true">4</div>
-                  </div>
-                  <div class="label">Black</div>
-                </div>
-                <div class="metric">
-                  <div class="circle-chart" style="--selected-color:var(--white)">
-                    <svg viewbox="0 0 36 36">
-                      <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
-                      <path class="circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke-dasharray="2, 100"></path>
-                    </svg>
-                    <div class="percentage" contenteditable data-tap-disabled="true" overflow-scroll="true">2</div>
-                  </div>
-                  <div class="label">Undefined</div>
-                </div>
-              </div>
-            </div>
-          </main>
-        <marquee scrollamount="20" direction="right" behavior="scroll">
+  <head>
+    <title>Squirrel Census</title>
+    <link href="nycdata.css" rel="stylesheet">
+    <script defer src="nycdata.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Frijole&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class= "title">
+       <h1>Squirrel Census</h1>
+    </div>
+    <a href= "nycdatanight.html"><div class="day"></div></a>
+    <main class="app">
+  <div class="app-display">
+    <div class="metric-group">
+      <div class="metric">
+        <div class="circle-chart" style="--selected-color:var(--gray)">
+          <svg viewbox="0 0 36 36">
+            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+            <path class="circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke-dasharray="81, 100"></path>
+          </svg>
+          <div class="percentage" contenteditable data-tap-disabled="true" overflow-scroll="true">81</div>
+        </div>
+        <div class="label" style="--selected-color:var(--gray)">Gray</div>
+      </div>
+      <div class="metric">
+        <div class="circle-chart" style="--selected-color:var(--cinnamon)">
+          <svg viewbox="0 0 36 36">
+            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+            <path class="circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke-dasharray="13, 100"></path>
+          </svg>
+          <div class="percentage" contenteditable data-tap-disabled="true" overflow-scroll="true">13</div>
+        </div>
+        <div class="label" style="--selected-color:var(--cinnamon)">Cinnamon</div>
+      </div>
+      <div class="metric">
+        <div class="circle-chart" style="--selected-color:var(--black)">
+          <svg viewbox="0 0 36 36">
+            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+            <path class="circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke-dasharray="4, 100"></path>
+          </svg>
+          <div class="percentage" contenteditable data-tap-disabled="true" overflow-scroll="true">4</div>
+        </div>
+        <div class="label" style="--selected-color:var(--black)">Black</div>
+      </div>
+      <div class="metric">
+        <div class="circle-chart" style="--selected-color:var(--white)">
+          <svg viewbox="0 0 36 36">
+            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+            <path class="circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke-dasharray="2, 100"></path>
+          </svg>
+          <div class="percentage" contenteditable data-tap-disabled="true" overflow-scroll="true">2</div>
+        </div>
+        <div class="label" style="--selected-color:var(--white)">Undefined</div>
+      </div>
+    </div>
+  </div>
+</main>
+<input id="editableFix" style="width:1px;height:1px;border:none;margin:0;padding:0;position:absolute;left:-200vmax">
+            <marquee scrollamount="20" direction="right" behavior="scroll">
             <img
               src="https://media3.giphy.com/media/MT93VRr8gheXETA1V0/giphy.gif?cid=6c09b9523tiz9qlsha4t02tg35lds76tvp6mb2itgjp88kok&rid=giphy.gif&ct=s"
-              width="200"
-              height="200"/>
+              width="300"
+              height="300"/>
         </marquee>
+  </body>
 </html>
