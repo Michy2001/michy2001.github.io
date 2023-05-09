@@ -169,6 +169,7 @@ h2{
     -webkit-text-stroke: 0.3px #924B14;
 }
 a{
-   cursor: url("acorn.png"), url("acorn.png"), default;}
+   cursor: url("acorn.png"), url("acorn.png"), default;
+  text-decoration: none;}
 head{
     cursor: url("acorn.png"), url("acorn.png"), default;}

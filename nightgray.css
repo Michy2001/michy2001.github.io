@@ -1,5 +1,5 @@
 body {
-    background-image: urL("daygray.jpg");
+    background-image: urL("nightgray.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -7,21 +7,21 @@ body {
     width: 100%;
     height: auto;
     cursor: url("acorn.png"), url("acorn.png"), default;}
-/*   transition: background 0.15s cubic-bezier(0.22, 0.61, 0.36, 1); */
+
   h1 {
     margin-top: 3vw;
     font-size: 5vw;
-    color: #848484;
+    color: rgb(145, 145, 145);
     font-family: 'Frijole', cursive;
     text-align: center;
-    -webkit-text-stroke: 0.3px #5B5B5B;
+    -webkit-text-stroke: 0.3px rgb(79, 79, 79);
 }
 h2{
     font-size: 2vw;
-    color: #848484;
+    color: rgb(145, 145, 145);
     font-family: 'Frijole', cursive;
     text-align: center;
-    -webkit-text-stroke: 0.3px #5B5B5B;
+    -webkit-text-stroke: 0.3px  rgb(79, 79, 79);
 }
 *, *::before, *::after{
     box-sizing: border-box;
@@ -51,6 +51,7 @@ h2{
   }
   ul li{
     font-family: 'Cabin Sketch', cursive;
+    color: white;
     position: absolute;
     top: 100%;
     left: 0;
@@ -67,7 +68,7 @@ h2{
     backface-visibility: hidden;
   }
   ul li:nth-child(1){
-    border-color: rgb(140, 255, 140);
+    border-color: rgb(201, 231, 134);
     z-index: 4;
     animation-name: rotate-one;
   }
@@ -75,7 +76,7 @@ h2{
     transform: rotate(-36deg);
   }
   ul li:nth-child(2){
-    border-color: rgb(222, 99, 55);
+    border-color: rgb(177, 85, 208);
     z-index: 3;
     animation-name: rotate-two;
     animation-delay: .4s;
@@ -85,7 +86,7 @@ h2{
     animation-delay: .4s;
   }
   ul li:nth-child(3){
-    border-color: rgb(218, 99, 178);
+    border-color: rgb(117, 163, 200);
     z-index: 2;
     animation-name: rotate-three;
     animation-delay: .8s;
@@ -114,14 +115,14 @@ h2{
   }
   @keyframes rotate-one{
     0% { transform: roate(0deg); }
-    100% { transform: rotate(20deg); }
-  }
-  @keyframes rotate-two{
-    0% { transform: rotate(20deg); }
     100% { transform: rotate(22deg); }
   }
-  @keyframes rotate-three{
+  @keyframes rotate-two{
     0% { transform: rotate(22deg); }
+    100% { transform: rotate(24deg); }
+  }
+  @keyframes rotate-three{
+    0% { transform: rotate(24deg); }
     100% { transform: rotate(180deg); }
   }
 

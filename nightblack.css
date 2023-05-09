@@ -1,5 +1,5 @@
 body {
-    background-image: urL("nightblack.html");
+    background-image: urL("nightblack.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -7,21 +7,21 @@ body {
     width: 100%;
     height: auto;
     cursor: url("acorn.png"), url("acorn.png"), default;}
-/*   transition: background 0.15s cubic-bezier(0.22, 0.61, 0.36, 1); */
+
   h1 {
     margin-top: 3vw;
     font-size: 5vw;
-    color: #3e3e3e;
+    color: black;
     font-family: 'Frijole', cursive;
     text-align: center;
-    -webkit-text-stroke: 0.3px black;
+    -webkit-text-stroke: 0.3px white;
 }
 h2{
     font-size: 2vw;
-    color: #3e3e3e;
+    color: black;
     font-family: 'Frijole', cursive;
     text-align: center;
-    -webkit-text-stroke: 0.3px black;
+    -webkit-text-stroke: 0.3px white;
 }
 *, *::before, *::after{
     box-sizing: border-box;
@@ -51,6 +51,7 @@ h2{
   }
   ul li{
     font-family: 'Cabin Sketch', cursive;
+    color: white;
     position: absolute;
     top: 100%;
     left: 0;
@@ -67,7 +68,7 @@ h2{
     backface-visibility: hidden;
   }
   ul li:nth-child(1){
-    border-color: green;
+    border-color: rgb(201, 66, 192);
     z-index: 4;
     animation-name: rotate-one;
   }
@@ -75,7 +76,7 @@ h2{
     transform: rotate(-36deg);
   }
   ul li:nth-child(2){
-    border-color: tomato;
+    border-color: rgb(146, 208, 107);
     z-index: 3;
     animation-name: rotate-two;
     animation-delay: .4s;
@@ -85,7 +86,7 @@ h2{
     animation-delay: .4s;
   }
   ul li:nth-child(3){
-    border-color: steelblue;
+    border-color: rgb(117, 163, 200);
     z-index: 2;
     animation-name: rotate-three;
     animation-delay: .8s;

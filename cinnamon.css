@@ -67,7 +67,7 @@ h2{
     backface-visibility: hidden;
   }
   ul li:nth-child(1){
-    border-color: green;
+    border-color: rgb(246, 255, 0);
     z-index: 4;
     animation-name: rotate-one;
   }
@@ -75,7 +75,7 @@ h2{
     transform: rotate(-36deg);
   }
   ul li:nth-child(2){
-    border-color: tomato;
+    border-color: rgb(229, 138, 122);
     z-index: 3;
     animation-name: rotate-two;
     animation-delay: .4s;
@@ -85,7 +85,7 @@ h2{
     animation-delay: .4s;
   }
   ul li:nth-child(3){
-    border-color: steelblue;
+    border-color: rgb(124, 186, 237);
     z-index: 2;
     animation-name: rotate-three;
     animation-delay: .8s;
