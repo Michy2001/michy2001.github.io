@@ -25,6 +25,9 @@
     position: absolute;
     z-index: 1;
 }
+.night:hover{
+   transform: scale(1.25);
+}
 
 body {
     background-image: urL("parknight.jpg");
@@ -34,7 +37,7 @@ body {
     overflow: hidden;
     width: 100%;
     height: auto;
-  cursor: url("https://cdn.glitch.global/8400e7c6-e21b-4d3c-936f-84af0bd87ca1/acorn.png?v=1683214301587"), url("https://cdn.glitch.global/8400e7c6-e21b-4d3c-936f-84af0bd87ca1/acorn.png?v=1683214301587"), default;}
+  cursor: url("acorn.png"), url("acorn.png"), default;}
 /*   transition: background 0.15s cubic-bezier(0.22, 0.61, 0.36, 1); */
 
 
@@ -88,6 +91,9 @@ body {
   display: grid;
   gap: 16px;
   place-items: center;
+}
+.metric:hover{
+  filter: invert(20%);
 }
 .metric .label {
   font-weight: 700;
@@ -148,15 +154,21 @@ marquee{
   position: absolute;
 }
 h1 {
-    margin-top: 4vw;
+    margin-top: 3vw;
     font-size: 5vw;
-    color: #924B14;
+    color: #D37328;
     font-family: 'Frijole', cursive;
     text-align: center;
-    -webkit-text-stroke: 0.3px #64330C;
+    -webkit-text-stroke: 0.3px #924B14;
 }
-
+h2{
+    font-size: 2vw;
+    color: #D37328;
+    font-family: 'Frijole', cursive;
+    text-align: center;
+    -webkit-text-stroke: 0.3px #924B14;
+}
 a{
-   cursor: url("https://cdn.glitch.global/8400e7c6-e21b-4d3c-936f-84af0bd87ca1/acorn.png?v=1683214301587"), url("https://cdn.glitch.global/8400e7c6-e21b-4d3c-936f-84af0bd87ca1/acorn.png?v=1683214301587"), default;}
+   cursor: url("acorn.png"), url("acorn.png"), default;}
 head{
-    cursor: url("https://cdn.glitch.global/8400e7c6-e21b-4d3c-936f-84af0bd87ca1/acorn.png?v=1683214301587"), url("https://cdn.glitch.global/8400e7c6-e21b-4d3c-936f-84af0bd87ca1/acorn.png?v=1683214301587"), default;}
+    cursor: url("acorn.png"), url("acorn.png"), default;}

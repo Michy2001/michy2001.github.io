@@ -1,0 +1,139 @@
+body {
+    background-image: urL("daycinnamon.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    cursor: url("acorn.png"), url("acorn.png"), default;}
+/*   transition: background 0.15s cubic-bezier(0.22, 0.61, 0.36, 1); */
+  h1 {
+    margin-top: 3vw;
+    font-size: 5vw;
+    color: #c85d15;
+    font-family: 'Frijole', cursive;
+    text-align: center;
+    -webkit-text-stroke: 0.3px #833c0c;
+}
+h2{
+    font-size: 2vw;
+    color: #c85d15;
+    font-family: 'Frijole', cursive;
+    text-align: center;
+    -webkit-text-stroke: 0.3px #833c0c;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+  }
+  ul{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  ul::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    border: 25px solid #eee;
+    border-bottom: none;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+  }
+  ul li{
+    font-family: 'Cabin Sketch', cursive;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    border: 25px solid;
+    border-top: none;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    list-style: none;
+    transform-origin: top center;
+    animation: .4s forwards linear;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+  ul li:nth-child(1){
+    border-color: green;
+    z-index: 4;
+    animation-name: rotate-one;
+  }
+  ul li:nth-child(1) span{
+    transform: rotate(-36deg);
+  }
+  ul li:nth-child(2){
+    border-color: tomato;
+    z-index: 3;
+    animation-name: rotate-two;
+    animation-delay: .4s;
+  }
+  ul li:nth-child(2) span{
+    transform: rotate(-72deg);
+    animation-delay: .4s;
+  }
+  ul li:nth-child(3){
+    border-color: steelblue;
+    z-index: 2;
+    animation-name: rotate-three;
+    animation-delay: .8s;
+  }
+  ul li:nth-child(3) span{
+    transform: rotate(-153deg);
+    animation-delay: .8s;
+  }
+  ul li:nth-child(4){
+    border-color: #e6a2a4;
+    z-index: 1;
+    animation-name: rotate-four;
+    animation-delay: 1.2s;
+  }
+  ul li:nth-child(4) span{
+    transform: rotate(-180deg);
+    animation-delay: 1.2s;
+  }
+  ul li span{
+    position: absolute;
+    font-size: .8rem;
+    top: 5px;
+    left: 8px;
+    backface-visibility: hidden;
+    animation: fade-in .4s linear forwards;
+  }
+  @keyframes rotate-one{
+    0% { transform: roate(0deg); }
+    100% { transform: rotate(26deg); }
+  }
+  @keyframes rotate-two{
+    0% { transform: rotate(26deg); }
+    100% { transform: rotate(28deg); }
+  }
+  @keyframes rotate-three{
+    0% { transform: rotate(26deg); }
+    100% { transform: rotate(180deg); }
+  }
+
+  @keyframes fade-in{
+    0%, 90% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .chart{
+    transform: scale(2);
+    margin-top: 20vw;
+  }
+a{
+    cursor: url("acorn.png"), url("acorn.png"), default;}
+ head{
+     cursor: url("acorn.png"), url("acorn.png"), default;}
