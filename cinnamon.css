@@ -17,6 +17,7 @@ body {
     -webkit-text-stroke: 0.3px #833c0c;
 }
 h2{
+    margin-top: -5vw;
     font-size: 2vw;
     color: #c85d15;
     font-family: 'Frijole', cursive;

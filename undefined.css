@@ -14,14 +14,15 @@ body {
     color: rgb(253, 255, 160);
     font-family: 'Frijole', cursive;
     text-align: center;
-    -webkit-text-stroke: 0.3px white;
+    -webkit-text-stroke: 0.3px orange;
 }
 h2{
+    margin-top: -5vw;
     font-size: 2vw;
-    color: 77ff84;
+    color: rgb(253, 255, 160);
     font-family: 'Frijole', cursive;
     text-align: center;
-    -webkit-text-stroke: 0.3px rgb(93, 93, 93);
+    -webkit-text-stroke: 0.3px orange;
 }
 *, *::before, *::after{
     box-sizing: border-box;
